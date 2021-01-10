@@ -1,0 +1,103 @@
+.nav-item .nav-link {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.nav-item .nav-link a:hover {
+    color: #9f9f9d;
+}
+
+.nav-link img {
+    width: 3rem;
+}
+
+.navbar-brand img {
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+#mySpace_nav ul{
+    list-style: none;
+    color: black;
+}
+
+#mySpace_nav li{
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+#mySpace_nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#mySpace_nav a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+#main_title h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#main_img {
+    margin-top: 2rem;
+}
+
+#main_img img {
+    width: 100%;
+}
+
+form a {
+    margin: 20px;
+}
+
+#navbarHeader img {
+    width: 1rem;
+}
+
+#footer_menu a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+#footer_menu a:hover {
+    color: #9f9f9d;
+}
+
+#social_button li {
+    height: 2rem;
+    width: 2rem;
+    margin: 5px;
+}
+
+#social_button img {
+    width: 100%;
+}
+
+#signature a {
+    text-decoration: none;
+    color: black;
+}
+
+#signature a:hover {
+    text-decoration: none;
+    color: #99cc33;
+}
+
+.img_myspace_return img {
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+}
+
+#caption {
+    caption-side: top;
+    font-size: 1.5rem;
+}

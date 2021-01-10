@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <!-- Bootstrap CSS -->
+    <div th:replace="fragments/bootstrapcss"></div>
+
+    <title>Les amis de l'escalade</title>
+</head>
+
+<body>
+
+<div th:replace="fragments/header"></div>
+
+<h1 class="text-center text-dark mb-5">Espace de <th:text value="${empty compte.pseudo ? compte.prenom : compte.pseudo}"/></h1>
+<div class="container">
+    <div class="row d-flex justify-content-center mt-3 mb-5">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="static/img/topo.jpg" alt="Topo">
+                <div class="card-body">
+                    <h5 class="card-title">Topo</h5>
+                    <p class="card-text">Ajouter et voir les topos des autres utilisateurs</p>
+                    <a href="topoIndex" class="btn btn-primary">allez
+                        vers</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="static/img/site.jpg" alt="Site">
+                <div class="card-body">
+                    <h5 class="card-title">Site</h5>
+                    <p class="card-text">Ajouter vos sites, secteurs et voies</p>
+                    <a href="siteIndex" class="btn btn-primary">allez
+                        vers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:replace="fragments/footer"></div>
+
+<div th:replace="fragments/bootstrapjs"></div>
+
+
+</body>
+</html>
