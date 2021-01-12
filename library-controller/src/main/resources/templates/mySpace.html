@@ -7,7 +7,7 @@
           content="width = device-width, initial-scale = 1, shrink-to-fit = no">
 
     <!-- Bootstrap CSS -->
-    <div th:replace="fragments/bootstrapcss"></div>
+    <div th:replace="fragments/bootstrapCss"></div>
 
     <title>Les amis de l'escalade</title>
 </head>
@@ -16,35 +16,31 @@
 
 <div th:replace="fragments/header"></div>
 
-<h1 class="text-center text-dark mb-5">Espace de <th:text value="${empty compte.pseudo ? compte.prenom : compte.pseudo}"/></h1>
+<h1 class="text-center text-dark mb-5">Espace de
+    <th:text value="${empty compte.pseudo ? compte.prenom : compte.pseudo}"/>
+</h1>
 <div class="container">
     <div class="row d-flex justify-content-center mt-3 mb-5">
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="static/img/topo.jpg" alt="Topo">
-                <div class="card-body">
-                    <h5 class="card-title">Topo</h5>
-                    <p class="card-text">Ajouter et voir les topos des autres utilisateurs</p>
-                    <a href="topoIndex" class="btn btn-primary">allez
-                        vers</a>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="static/img/site.jpg" alt="Site">
-                <div class="card-body">
-                    <h5 class="card-title">Site</h5>
-                    <p class="card-text">Ajouter vos sites, secteurs et voies</p>
-                    <a href="siteIndex" class="btn btn-primary">allez
-                        vers</a>
-                </div>
-            </div>
-        </div>
+        <h3>Prêt en cours</h3>
+        <table>
+            <tr>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Type</th>
+                <th>Publication</th>
+            </tr>
+            <tr>
+                <td>La maison du bonheur</td>
+                <td>Michel Iron</td>
+                <td>Nanare</td>
+                <td>2020</td>
+        </table>
     </div>
 </div>
 
 <div th:replace="fragments/footer"></div>
 
-<div th:replace="fragments/bootstrapjs"></div>
+<div th:replace="fragments/bootstrapJs"></div>
 
 
 </body>

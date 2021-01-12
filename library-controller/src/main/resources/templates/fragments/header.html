@@ -1,13 +1,13 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="fr">
 <meta charset="UTF-8">
 <header th:fragment="header">
-	<div class="container-fluid bg-dark">
+	<div class="container-fluid bg-dark mb-5">
 		<div class="row">
 
 			<nav class="col-lg-10 navbar navbar-expand-lg navbar-dark" id="header">
-				<a class="navbar-brand" href="index.jsp"
+				<a class="navbar-brand" href="/"
 				   title="accéder à la page d'accueil" alt="logo accueil"><img
-						alt="logo du site" src="static/img/logo_escalade.png"></a>
+						alt="logo du site" src="img/logo.png"/></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarHeader" aria-controls="navbarHeader"
 						aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
 				<div class="collapse navbar-collapse" id="navbarHeader">
 					<div>
 						<ul class="navbar-nav mr-auto">
-							<li class="nav-item"><a class="nav-link" href="search">Livres</a></li>
+							<li class="nav-item"><a class="nav-link" href="/books">Livres</a></li>
 							<li class="nav-item"><a class="nav-link" href="association.jsp">Information</a>
 							</li>
 							<li class="nav-item"><a class="nav-link" href="event.jsp">Contact</a>
@@ -49,20 +49,4 @@
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg" id="logo">
-		<div class="collapse navbar-collapse">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a class="nav-link"
-											   href="https://www.facebook.com/"><img alt="facebook"
-																					 src="static/img/logo_facebook.png"><span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item"><a class="nav-link"
-										href="https://www.pinterest.fr/"><img alt="pinterest"
-																			  src="static/img/logo_pinterest.png"></a></li>
-				<li class="nav-item"><a class="nav-link"
-										href="https://twitter.com/?lang=fr"><img alt="twitter"
-																				 src="static/img/logo_twitter.png"></a></li>
-			</ul>
-		</div>
-	</nav>
 </header>
