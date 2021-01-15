@@ -10,11 +10,13 @@
         <module name="library-service" />
         <module name="library-repository" />
         <module name="library-batch" />
+        <module name="library-model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="library-batch" target="1.8" />
       <module name="library-controller" target="1.8" />
+      <module name="library-model" target="1.8" />
       <module name="library-repository" target="1.8" />
       <module name="library-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="library-batch" options="-parameters" />
       <module name="library-controller" options="-parameters" />
+      <module name="library-model" options="-parameters" />
       <module name="library-repository" options="-parameters" />
       <module name="library-service" options="-parameters" />
     </option>
