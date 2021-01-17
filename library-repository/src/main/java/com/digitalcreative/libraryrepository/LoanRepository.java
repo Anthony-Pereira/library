@@ -1,6 +1,5 @@
 package com.digitalcreative.libraryrepository;
 
-import com.digitalcreative.librarymodel.Account;
 import com.digitalcreative.librarymodel.Loan;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
