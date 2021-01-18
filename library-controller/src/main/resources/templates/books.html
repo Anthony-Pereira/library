@@ -8,7 +8,30 @@
 <body>
     <div th:replace="fragments/header :: header"></div>
 
-    <p>Voici les livres</p>
+    <h2 class="h2">Liste des livres</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Autheur</th>
+            <th>Publication</th>
+            <th>Titre</th>
+            <th>Type</th>
+            <th>Unité</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${listBooks.empty}">
+            <td colspan="3">Aucun livre en base de données</td>
+        </tr>
+        <tr th:each="books: ${listBooks}">
+            <td><span th:text="${books.author}"> Autheur </span></td>
+            <td><span th:text="${books.publication}"> Publication </span></td>
+            <td><span th:text="${books.title}"> Titre </span></td>
+            <td><span th:text="${books.type}"> Type </span></td>
+            <td><span th:text="${books.unit}"> Unité </span></td>
+        </tr>
+        </tbody>
+    </table>
 
     <div th:replace="fragments/footer :: footer"></div>
 
