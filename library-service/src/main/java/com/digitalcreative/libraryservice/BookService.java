@@ -1,6 +1,5 @@
 package com.digitalcreative.libraryservice;
 
-import com.digitalcreative.librarymodel.Account;
 import com.digitalcreative.librarymodel.Book;
 import com.digitalcreative.libraryrepository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;

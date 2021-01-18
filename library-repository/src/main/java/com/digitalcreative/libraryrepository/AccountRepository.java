@@ -95,7 +95,7 @@ public class AccountRepository {
     /**
      * Delete an account using exchange method of RestTemplate
      * instead of delete method in order to log the response status code.
-     * @param e The account to delete
+     * @param id The account to delete
      */
     public void deleteAccount(int id) {
 

@@ -95,7 +95,7 @@ public class BookRepository {
     /**
      * Delete a book using exchange method of RestTemplate
      * instead of delete method in order to log the response status code.
-     * @param e The book to delete
+     * @param id The book to delete
      */
     public void deleteABook(int id) {
 

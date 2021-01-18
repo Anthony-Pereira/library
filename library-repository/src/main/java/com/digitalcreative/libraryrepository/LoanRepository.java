@@ -95,7 +95,7 @@ public class LoanRepository {
     /**
      * Delete a loan using exchange method of RestTemplate
      * instead of delete method in order to log the response status code.
-     * @param e The loan to delete
+     * @param id The loan to delete
      */
     public void deleteLoan(int id) {
 

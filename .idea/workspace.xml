@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-batch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-batch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/LoanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-repository/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/library-controller/src/main/resources/static/img" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -58,18 +66,7 @@
       <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibraryServiceApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.LibraryRepositoryApplication">
     <configuration name="LibraryBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.librarybatch.LibraryBatchApplication" />
@@ -131,7 +128,8 @@
       <workItem from="1610393608030" duration="13065000" />
       <workItem from="1610484236649" duration="11167000" />
       <workItem from="1610665197586" duration="4177000" />
-      <workItem from="1610901287911" duration="5094000" />
+      <workItem from="1610901287911" duration="9000000" />
+      <workItem from="1610993140852" duration="990000" />
     </task>
     <servers />
   </component>
