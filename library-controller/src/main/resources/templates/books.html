@@ -8,30 +8,38 @@
 <body>
     <div th:replace="fragments/header :: header"></div>
 
-    <h2 class="h2">Liste des livres</h2>
-    <table>
-        <thead>
-        <tr>
-            <th>Autheur</th>
-            <th>Publication</th>
-            <th>Titre</th>
-            <th>Type</th>
-            <th>Unité</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:if="${listBooks.empty}">
-            <td colspan="3">Aucun livre en base de données</td>
-        </tr>
-        <tr th:each="books: ${listBooks}">
-            <td><span th:text="${books.author}"> Autheur </span></td>
-            <td><span th:text="${books.publication}"> Publication </span></td>
-            <td><span th:text="${books.title}"> Titre </span></td>
-            <td><span th:text="${books.type}"> Type </span></td>
-            <td><span th:text="${books.unit}"> Unité </span></td>
-        </tr>
-        </tbody>
-    </table>
+    <div class="container text-center">
+        <h2 class="h2">Liste des livres</h2>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Autheur</th>
+                <th>Publication</th>
+                <th>Titre</th>
+                <th>Type</th>
+                <th>Unité</th>
+                <th>Emprunter</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:if="${listBooks.empty}">
+                <td colspan="3">Aucun livre en base de données</td>
+            </tr>
+            <tr th:each="books: ${listBooks}">
+                <td><span th:text="${books.author}"> Autheur </span></td>
+                <td><span th:text="${books.publication}"> Publication </span></td>
+                <td><span th:text="${books.title}"> Titre </span></td>
+                <td><span th:text="${books.type}"> Type </span></td>
+                <td><span th:text="${books.unit}"> Unité </span></td>
+                <td>
+                    <span th:if="${books.unit} > 0"><a href="/mySpace" class="btn btn-primary" type="button">Ajouter</a></span>
+                    <span th:unless="${books.unit} > 0">Victime de son succès</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div th:replace="fragments/footer :: footer"></div>
 

@@ -9,30 +9,25 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.digitalcreative</groupId>
-    <artifactId>library-service</artifactId>
+    <artifactId>library-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>library-service</name>
-    <description>Module service for library application with Spring Boot</description>
-
+    <name>library-security</name>
+    <description>Security module for libray project with Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -44,14 +39,22 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.digitalcreative</groupId>
-            <artifactId>library-repository</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
+            <groupId>com.digitalcreative</groupId>
+            <artifactId>library-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

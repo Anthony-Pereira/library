@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head>
+	<!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport"
+		  content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+	<!-- Bootstrap CSS -->
+	<div th:replace="fragments/bootstrapCss"></div>
+
+
+	<title>Librairie</title>
+</head>
+
+<body>
+
+<div th:replace="fragments/header :: header"></div>
+
+	<div class="container">
+		<div class="form bg-light">
+			<div class="logo mb-3">
+				<div class="col-md-12 text-center">
+					<h1>Inscription</h1>
+				</div>
+			</div>
+			<form action="signUp" method="post">
+				<div class="row m-5">
+					<div class="form-group col-lg-6">
+						<label for="prenom"></label> <input type="text"
+							name="prenom" class="form-control" id="prenom"
+							aria-describedby="prenom" placeholder="Entrez votre prénom"
+							required> <span class="text-danger"></span>
+					</div>
+					<div class="form-group col-lg-6">
+						<label for="nom"></label> <input type="text"
+							name="nom" class="form-control" id="nom"
+							aria-describedby="lastname" placeholder="Entrez votre nom"
+							required> <span class="text-danger"></span>
+					</div>
+					<div class="form-group col-lg-6">
+						<label for="email"></label> <input type="email"
+							name="email" class="form-control" id="email"
+							aria-describedby="email" placeholder="Entrez votre email"
+							required> <span class="text-danger"></span>
+					</div>
+					<div class="form-group col-lg-6">
+						<label for="confirmeEmail"></label> <input type="email"
+							name="confirmeEmail" class="form-control" id="confirmeEmail"
+							aria-describedby="confirmeEmail" placeholder="Confirmez votre email"
+							required> <span class="text-danger"></span>
+					</div>
+					<div class="form-group col-lg-6">
+						<label for="motDePasse"></label> <input type="password"
+							name="motDePasse" id="motDePasse" class="form-control"
+							aria-describedby="motDePasse" placeholder="Entrez un mot de passe"
+							required> <span class="text-danger"></span>
+					</div>
+					<div class="form-group col-lg-6">
+						<label for="confirmeMotDePasse"></label> <input type="password"
+							name="confirmeMotDePasse" id="confirmeMotDePasse" class="form-control"
+							aria-describedby="confirmeMotDePasse" placeholder="Confirmez un mot de passe"
+							required> <span class="text-danger"></span>
+					</div>
+					<div class="col-md-12 text-center my-3">
+						<button type="submit"
+							class=" btn btn-block my btn btn-secondary tx-tfm">S'inscrire</button>
+					</div>
+				</div>
+			</form>
+			<div class="col-md-12 ">
+				<div>
+					<th:choose>
+						<th:when test="${!empty confirmationError}">
+							<p class="text-danger">Le couple email ou mot de passe est incorrect.</p>
+						</th:when>
+						<th:when test="${!empty emailExist}">
+                            <p class="text-danger">L'adresse e-mail est déjà utilisée</p>
+                            <p class="text-danger">Vous avez indiqué que vous êtes un nouveau utilisateur, mais un compte existe déjà avec l'adresse email <th:text value="${compte.email}"/>.</p>
+						</th:when>
+						<th:when test="${!empty isValidEmail}">
+							<p class="text-danger">Votre email doit comprendre entre 6 et 30 caractères.</p>
+						</th:when>
+						<th:when test="${!empty isValidPassword}">
+                            <p class="text-danger">Utilisez 8 ou plus de caractères, avec un mélange de lettres majuscules, minuscules et de nombres pour votre mot de passe.</p>
+						</th:when>
+					</th:choose>
+				</div>
+				<div>
+					<p class="text-center">
+						Vous possédez déjà un compte ?<a href="signIn" id="signin">
+							Identifiez-vous</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <footer th:replace="fragments/footer :: footer"></footer>
+
+    <div th:replace="fragments/bootstrapJs"></div>
+
+</body>
+</html>

@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/library-repository/pom.xml" />
         <option value="$PROJECT_DIR$/library-batch/pom.xml" />
         <option value="$PROJECT_DIR$/library-model/pom.xml" />
+        <option value="$PROJECT_DIR$/library-security/pom.xml" />
       </list>
     </option>
   </component>

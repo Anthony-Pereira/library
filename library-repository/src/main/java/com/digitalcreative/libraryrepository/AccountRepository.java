@@ -54,6 +54,26 @@ public class AccountRepository {
     }
 
     /**
+     * Get an account by the email
+     * @param email The email of the account
+     * @return The account which matches the email
+     */
+    public Account getAccount(String email) {
+
+        String getAccountUrl = apiUrl + "/account/" + email;
+
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<Account> response = restTemplate.exchange(
+                getAccountUrl,
+                HttpMethod.GET,
+                null,
+                Account.class
+        );
+
+        return response.getBody();
+    }
+
+    /**
      * Add a new account
      * @param e A new account (without an id)
      * @return The account full filled (with an id)

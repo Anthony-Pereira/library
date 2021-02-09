@@ -10,6 +10,7 @@
         <module name="library-controller" />
         <module name="library-service" />
         <module name="library-repository" />
+        <module name="library-security" />
         <module name="library-batch" />
         <module name="library-model" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="library-controller" target="1.8" />
       <module name="library-model" target="1.8" />
       <module name="library-repository" target="1.8" />
+      <module name="library-security" target="1.8" />
       <module name="library-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +30,7 @@
       <module name="library-controller" options="-parameters" />
       <module name="library-model" options="-parameters" />
       <module name="library-repository" options="-parameters" />
+      <module name="library-security" options="-parameters" />
       <module name="library-service" options="-parameters" />
     </option>
   </component>

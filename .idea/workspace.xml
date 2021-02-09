@@ -5,15 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/LoanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/EnumRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-batch/src/main/java/com/digitalcreative/librarybatch/LibraryBatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-batch/src/main/java/com/digitalcreative/librarybatch/LibraryBatchApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LibraryControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LibraryControllerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/MySpaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/MySpaceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/LibraryRepositoryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/LibraryRepositoryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/LibraryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/LibraryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +43,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mLulNSFgnUvn3pUa0wQOhWEslc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,13 +76,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library-controller/src/main/resources/static/img" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library-controller/src/main/resources/templates" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.14969325" />
+    <property name="project.structure.side.proportion" value="0.26091954" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\templates" />
       <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\static\img" />
       <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\templates\fragments" />
       <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\static\fragment" />
@@ -67,15 +97,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.LibraryControllerApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibrarySecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="library-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.librarysecurity.LibrarySecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.libraryservice.LibraryServiceApplication" />
@@ -124,6 +159,7 @@
       <item itemvalue="Spring Boot.LibraryServiceApplication" />
       <item itemvalue="Spring Boot.LibraryBatchApplication" />
       <item itemvalue="Spring Boot.LibraryModelApplication" />
+      <item itemvalue="Spring Boot.LibrarySecurityApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -143,6 +179,16 @@
       <workItem from="1610665197586" duration="4177000" />
       <workItem from="1610901287911" duration="9000000" />
       <workItem from="1610993140852" duration="990000" />
+      <workItem from="1611077151067" duration="3988000" />
+      <workItem from="1611178193386" duration="13943000" />
+      <workItem from="1611513505878" duration="6567000" />
+      <workItem from="1611691915688" duration="5261000" />
+      <workItem from="1611856487241" duration="7451000" />
+      <workItem from="1611865008137" duration="10365000" />
+      <workItem from="1612042107180" duration="2896000" />
+      <workItem from="1612370151258" duration="11280000" />
+      <workItem from="1612727599992" duration="2134000" />
+      <workItem from="1612822474284" duration="11723000" />
     </task>
     <servers />
   </component>
