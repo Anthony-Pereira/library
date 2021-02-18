@@ -5,33 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/LoanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignInController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signIn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/EnumRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/JWTAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LibraryControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LibraryControllerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/MySpaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/MySpaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signUp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/EnumRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-model/src/main/java/com/digitalcreative/librarymodel/EnumRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,19 +78,11 @@
       <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\static\css" />
       <recent name="C:\workspace\development\project\java\p7\library\library-controller\src\main\resources\static" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.digitalcreative.libraryservice" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.LibraryControllerApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.librarybatch.LibraryBatchApplication" />
@@ -188,7 +163,10 @@
       <workItem from="1612042107180" duration="2896000" />
       <workItem from="1612370151258" duration="11280000" />
       <workItem from="1612727599992" duration="2134000" />
-      <workItem from="1612822474284" duration="11723000" />
+      <workItem from="1612822474284" duration="23932000" />
+      <workItem from="1613082675318" duration="3109000" />
+      <workItem from="1613332366179" duration="2162000" />
+      <workItem from="1613510728948" duration="13709000" />
     </task>
     <servers />
   </component>
@@ -203,5 +181,75 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java</url>
+          <line>37</line>
+          <properties class="com.digitalcreative.librarycontroller.controller.SignUpController" method="createAccount">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java</url>
+          <line>29</line>
+          <properties class="com.digitalcreative.libraryservice.AccountService" method="createAccount">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
+          <line>80</line>
+          <properties class="com.digitalcreative.libraryrepository.AccountRepository" method="createAccount">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

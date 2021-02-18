@@ -1,5 +1,10 @@
 package com.digitalcreative.librarymodel;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
 public enum EnumRole {
 
     ADMINISTRATEUR(1,"Administrateur"),
@@ -12,11 +17,6 @@ public enum EnumRole {
 
     EnumRole(Integer id){
         this.id=id;
-    }
-
-    EnumRole(Integer id,String designation){
-        this.id=id;
-        this.designation=designation;
     }
 
     public Integer getId() {

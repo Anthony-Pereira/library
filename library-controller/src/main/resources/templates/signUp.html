@@ -24,40 +24,28 @@
 					<h1>Inscription</h1>
 				</div>
 			</div>
-			<form action="signUp" method="post">
+			<form method="post" th:action="@{/createAccount}"  th:object="${account}">
 				<div class="row m-5">
 					<div class="form-group col-lg-6">
-						<label for="prenom"></label> <input type="text"
+						<label for="prenom"></label> <input th:field="*{name}" type="text"
 							name="prenom" class="form-control" id="prenom"
 							aria-describedby="prenom" placeholder="Entrez votre prénom"
 							required> <span class="text-danger"></span>
 					</div>
 					<div class="form-group col-lg-6">
-						<label for="nom"></label> <input type="text"
+						<label for="nom"></label> <input th:field="*{surname}" type="text"
 							name="nom" class="form-control" id="nom"
 							aria-describedby="lastname" placeholder="Entrez votre nom"
 							required> <span class="text-danger"></span>
 					</div>
 					<div class="form-group col-lg-6">
-						<label for="email"></label> <input type="email"
+						<label for="email"></label> <input th:field="*{email}" type="email"
 							name="email" class="form-control" id="email"
 							aria-describedby="email" placeholder="Entrez votre email"
 							required> <span class="text-danger"></span>
 					</div>
 					<div class="form-group col-lg-6">
-						<label for="confirmeEmail"></label> <input type="email"
-							name="confirmeEmail" class="form-control" id="confirmeEmail"
-							aria-describedby="confirmeEmail" placeholder="Confirmez votre email"
-							required> <span class="text-danger"></span>
-					</div>
-					<div class="form-group col-lg-6">
-						<label for="motDePasse"></label> <input type="password"
-							name="motDePasse" id="motDePasse" class="form-control"
-							aria-describedby="motDePasse" placeholder="Entrez un mot de passe"
-							required> <span class="text-danger"></span>
-					</div>
-					<div class="form-group col-lg-6">
-						<label for="confirmeMotDePasse"></label> <input type="password"
+						<label for="confirmeMotDePasse"></label> <input th:field="*{password}" type="password"
 							name="confirmeMotDePasse" id="confirmeMotDePasse" class="form-control"
 							aria-describedby="confirmeMotDePasse" placeholder="Confirmez un mot de passe"
 							required> <span class="text-danger"></span>

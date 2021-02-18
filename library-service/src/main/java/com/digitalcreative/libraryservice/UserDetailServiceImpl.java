@@ -1,4 +1,4 @@
-package com.digitalcreative.librarysecurity;
+package com.digitalcreative.libraryservice;
 
 import com.digitalcreative.librarymodel.Account;
 import com.digitalcreative.libraryservice.AccountService;

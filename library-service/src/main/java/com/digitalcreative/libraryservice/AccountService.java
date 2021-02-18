@@ -13,7 +13,7 @@ public class AccountService {
     @Autowired
     private AccountRepository accountRepository;
 
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    private BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 
     public Iterable<Account> getAccounts(){
         return accountRepository.getAccounts();
@@ -35,7 +35,7 @@ public class AccountService {
 
         if(account.getId() == null) {
 
-            account.setRole(EnumRole.UTILISATEUR);
+            account.setRole(EnumRole.UTILISATEUR.getId());
 
             // If id is null, id is a new account.
             createdAccount = accountRepository.createAccount(account);
