@@ -16,15 +16,11 @@ import java.util.Map;
 @Controller
 public class SignUpController {
 
-    Account account;
-
     @Autowired
     AccountService accountService;
 
     @GetMapping("/signUp")
     ModelAndView showSignUp(){
-
-        Account account;
 
         String view = "signUp";
         Map<String,Object> model = new HashMap<String,Object>();

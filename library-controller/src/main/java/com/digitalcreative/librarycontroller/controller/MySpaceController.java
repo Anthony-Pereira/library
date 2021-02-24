@@ -8,7 +8,6 @@ public class MySpaceController {
 
     @GetMapping("/mySpace")
     public String mySpace(){
-
         return "mySpace";
     }
 
