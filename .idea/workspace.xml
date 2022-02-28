@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,14 @@
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1mLulNSFgnUvn3pUa0wQOhWEslc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -181,7 +190,9 @@
       <workItem from="1636657763861" duration="6889000" />
       <workItem from="1639075706941" duration="2156000" />
       <workItem from="1639078195102" duration="236000" />
-      <workItem from="1639078712136" duration="805000" />
+      <workItem from="1639078712136" duration="3376000" />
+      <workItem from="1641307100764" duration="1026000" />
+      <workItem from="1646049501157" duration="7208000" />
     </task>
     <servers />
   </component>
