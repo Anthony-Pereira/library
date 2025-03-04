@@ -31,7 +31,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
 
-        Account account = null;
+        Account account;
 
         try {
             account = new ObjectMapper().readValue(request.getInputStream(),Account.class);
