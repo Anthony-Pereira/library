@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="fix bug dependencies devtool,tomcat run impossible delete zuul">
-      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/CustomUserDetailsService.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="add CustomUserDetailsService class and spring security module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Anthony Pereira" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -283,8 +285,17 @@
       <workItem from="1741033388902" duration="595000" />
       <workItem from="1741049239472" duration="8303000" />
       <workItem from="1741103781953" duration="1468000" />
-      <workItem from="1741217462776" duration="7848000" />
+      <workItem from="1741217462776" duration="9155000" />
     </task>
+    <task id="LOCAL-00001" summary="add CustomUserDetailsService class and spring security module">
+      <option name="closed" value="true" />
+      <created>1741267223767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741267223767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
