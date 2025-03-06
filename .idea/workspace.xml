@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="fix bug dependencies devtool,tomcat run impossible delete zuul">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/JWTAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/JWTAuthorizationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/WebSecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/UserDetailServiceImpl.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/CustomUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +283,7 @@
       <workItem from="1741033388902" duration="595000" />
       <workItem from="1741049239472" duration="8303000" />
       <workItem from="1741103781953" duration="1468000" />
-      <workItem from="1741217462776" duration="7060000" />
+      <workItem from="1741217462776" duration="7848000" />
     </task>
     <servers />
   </component>
