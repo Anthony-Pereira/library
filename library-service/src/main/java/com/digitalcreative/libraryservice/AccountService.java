@@ -4,7 +4,6 @@ import com.digitalcreative.librarymodel.Account;
 import com.digitalcreative.librarymodel.EnumRole;
 import com.digitalcreative.libraryrepository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -12,8 +11,6 @@ public class AccountService {
 
     @Autowired
     private AccountRepository accountRepository;
-
-    private BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 
     public Iterable<Account> getAccounts(){
         return accountRepository.getAccounts();
@@ -29,7 +26,7 @@ public class AccountService {
 
     public Account createAccount(Account account) {
 
-        account.setPassword(bCryptPasswordEncoder.encode(account.getPassword()));
+        account.setPassword(account.getPassword());
 
         Account createdAccount;
 

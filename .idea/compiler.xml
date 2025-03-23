@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/library/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -11,23 +14,22 @@
         <module name="library-service" />
         <module name="library-repository" />
         <module name="library-security" />
-        <module name="library-model" />
         <module name="library-batch" />
+        <module name="library-model" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="library-zuul" target="17" />
+    <bytecodeTargetLevel target="21">
+      <module name="library" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="library-batch" options="-parameters" />
-      <module name="library-controller" options="-parameters" />
-      <module name="library-model" options="-parameters" />
-      <module name="library-repository" options="-parameters" />
-      <module name="library-security" options="-parameters" />
-      <module name="library-service" options="-parameters" />
-      <module name="library-zuul" options="-parameters" />
+      <module name="library-batch" options="" />
+      <module name="library-controller" options="" />
+      <module name="library-model" options="" />
+      <module name="library-repository" options="" />
+      <module name="library-security" options="" />
+      <module name="library-service" options="" />
     </option>
   </component>
 </project>

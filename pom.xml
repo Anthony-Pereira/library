@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.digitalcreative</groupId>
+  <artifactId>library-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>library-model</module>
+    <module>library-repository</module>
+    <module>library-service</module>
+    <module>library-controller</module>
+    <module>library-batch</module>
+    <module>library-security</module>
+  </modules>
+
+  <!-- Activer les plugins Spring Boot -->
+  <dependencyManagement>
+    <dependencies>
+
+        <!-- Définir les versions des modules internes -->
+        <dependency>
+          <groupId>com.digitalcreative</groupId>
+          <artifactId>library-repository</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+          <groupId>com.digitalcreative</groupId>
+          <artifactId>library-service</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+          <groupId>com.digitalcreative</groupId>
+          <artifactId>library-controller</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+          <groupId>com.digitalcreative</groupId>
+          <artifactId>library-batch</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+          <groupId>com.digitalcreative</groupId>
+          <artifactId>library-security</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+      <dependency>
+        <groupId>com.digitalcreative</groupId>
+        <artifactId>library-model</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>3.1.4</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
+        <version>6.0.0</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.30</version>
+        <scope>provided</scope> <!-- Ce scope est recommandé pour Lombok -->
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.10.1</version> <!-- Assurez-vous d'utiliser cette version ou une version plus récente -->
+          <configuration>
+            <source>21</source>
+            <target>21</target>
+          </configuration>
+        </plugin>
+
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <properties>
+    <java.version>21</java.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+
+</project>
+
