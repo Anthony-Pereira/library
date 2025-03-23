@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-batch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LoanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/MySpaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/MySpaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/controller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/fragments/bootstrapCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/fragments/bootstrapCss.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-repository/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/LibrarySecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/LibrarySecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/digitalcreative/libraryservice/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/src/main/java/com/digitalcreative/libraryzuul/LibraryZuulApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/src/main/resources/zuul-server.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-zuul/src/test/java/com/digitalcreative/libraryzuul/LibraryZuulApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,19 +177,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.LibraryControllerApplication">
-    <configuration name="TestJava21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.digitalcreative.librarybatch.TestJava21" />
-      <module name="library-batch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.digitalcreative.librarybatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.librarybatch.LibraryBatchApplication" />
@@ -274,7 +222,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestJava21" />
       <item itemvalue="Spring Boot.LibraryBatchApplication" />
       <item itemvalue="Spring Boot.LibraryControllerApplication" />
       <item itemvalue="Spring Boot.LibraryModelApplication" />
@@ -282,11 +229,6 @@
       <item itemvalue="Spring Boot.LibrarySecurityApplication" />
       <item itemvalue="Spring Boot.LibraryServiceApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TestJava21" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -385,7 +327,7 @@
       <workItem from="1741897138963" duration="5473000" />
       <workItem from="1741905769162" duration="1075000" />
       <workItem from="1741906903295" duration="8834000" />
-      <workItem from="1742682740131" duration="10891000" />
+      <workItem from="1742682740131" duration="11732000" />
     </task>
     <task id="LOCAL-00001" summary="add CustomUserDetailsService class and spring security module">
       <option name="closed" value="true" />
