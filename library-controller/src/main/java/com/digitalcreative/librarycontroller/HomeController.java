@@ -13,7 +13,7 @@ public class HomeController {
 
     @GetMapping("/login")
     public String login() {
-        return "signIn"; // Retourne la vue login.html
+        return "login"; // Retourne la vue login.html
     }
 
 }

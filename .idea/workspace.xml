@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/mySpace.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/mySpace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,54 +91,54 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestJava21.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.library-batch [clean].executor": "Run",
-    "Maven.library-controller [clean].executor": "Run",
-    "Maven.library-model [clean].executor": "Run",
-    "Maven.library-repository [clean].executor": "Run",
-    "Maven.library-security [clean].executor": "Run",
-    "Maven.library-service [clean].executor": "Run",
-    "Maven.library-service [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.LibraryBatchApplication.executor": "Run",
-    "Spring Boot.LibraryControllerApplication.executor": "Run",
-    "Spring Boot.LibraryModelApplication.executor": "Run",
-    "Spring Boot.LibraryRepositoryApplication.executor": "Run",
-    "Spring Boot.LibrarySecurityApplication.executor": "Run",
-    "Spring Boot.LibraryServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/development/project/java/p7/library",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/workspace/development/project/java/p7/library/library-parent/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.34685865",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "settings.editor.splitter.proportion": "0.23616236",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestJava21.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-batch [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-controller [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-model [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-repository [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-security [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.library-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LibraryBatchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LibraryControllerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LibraryModelApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LibraryRepositoryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LibrarySecurityApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LibraryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/development/project/java/p7/library&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/workspace/development/project/java/p7/library/library-parent/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34685865&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23616236&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -177,7 +181,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibraryControllerApplication">
+  <component name="RunManager" selected="Spring Boot.LibrarySecurityApplication">
     <configuration name="LibraryBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.librarybatch.LibraryBatchApplication" />
@@ -328,7 +332,7 @@
       <workItem from="1741897138963" duration="5473000" />
       <workItem from="1741905769162" duration="1075000" />
       <workItem from="1741906903295" duration="8834000" />
-      <workItem from="1742682740131" duration="12358000" />
+      <workItem from="1742682740131" duration="28591000" />
     </task>
     <task id="LOCAL-00001" summary="add CustomUserDetailsService class and spring security module">
       <option name="closed" value="true" />
@@ -403,12 +407,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignUpController.java</url>
+          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/RegisterController.java</url>
           <line>35</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignUpController.java</url>
+          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/RegisterController.java</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -418,39 +422,14 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/library-parent/src/Main.java</url>
           <line>3</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignUpController.java</url>
+          <url>file://$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/RegisterController.java</url>
           <line>33</line>
-          <properties class="com.digitalcreative.librarycontroller.SignUpController" method="createAccount">
+          <properties class="com.digitalcreative.librarycontroller.RegisterController" method="createAccount">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
@@ -462,14 +441,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/library-repository/src/main/java/com/digitalcreative/libraryrepository/AccountRepository.java</url>
-          <line>80</line>
-          <properties class="com.digitalcreative.libraryrepository.AccountRepository" method="createAccount">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

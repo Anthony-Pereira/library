@@ -11,14 +11,14 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 @Controller
-public class SignInController {
+public class LoginController {
 
     @Autowired
     AccountService accountService;
 
-    @GetMapping("/signIn")
+    @GetMapping("/login")
     public String showSignIn() {
-        return "signIn";
+        return "login";
     }
 
     @PostMapping("/authentication")

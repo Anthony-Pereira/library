@@ -14,15 +14,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
-public class SignUpController {
+public class RegisterController {
 
     @Autowired
     AccountService accountService;
 
-    @GetMapping("/signUp")
+    @GetMapping("/register")
     ModelAndView showSignUp(){
 
-        String view = "signUp";
+        String view = "register";
         Map<String,Object> model = new HashMap<String,Object>();
 
         model.put("account",new Account());
@@ -38,7 +38,7 @@ public class SignUpController {
         accountService.createAccount(account);
 
         RedirectView redirectView = new RedirectView();
-        redirectView.setUrl("/signIn");
+        redirectView.setUrl("/login");
 
         return new ModelAndView(redirectView) ;
     }
