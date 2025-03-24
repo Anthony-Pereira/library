@@ -7,10 +7,7 @@
     <list default="true" id="d7cc690e-5ac7-425a-8c25-812a02d2eef8" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-controller/src/main/resources/templates/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-controller/src/main/java/com/digitalcreative/librarycontroller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-security/src/main/java/com/digitalcreative/librarysecurity/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibrarySecurityApplication">
+  <component name="RunManager" selected="Spring Boot.LibraryControllerApplication">
     <configuration name="LibraryBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.digitalcreative.librarybatch.LibraryBatchApplication" />
@@ -332,7 +329,7 @@
       <workItem from="1741897138963" duration="5473000" />
       <workItem from="1741905769162" duration="1075000" />
       <workItem from="1741906903295" duration="8834000" />
-      <workItem from="1742682740131" duration="28591000" />
+      <workItem from="1742682740131" duration="29999000" />
     </task>
     <task id="LOCAL-00001" summary="add CustomUserDetailsService class and spring security module">
       <option name="closed" value="true" />

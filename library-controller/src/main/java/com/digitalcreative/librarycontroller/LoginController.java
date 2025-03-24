@@ -17,7 +17,7 @@ public class LoginController {
     AccountService accountService;
 
     @GetMapping("/login")
-    public String showSignIn() {
+    public String showLogin() {
         return "login";
     }
 
