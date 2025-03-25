@@ -4,14 +4,10 @@ import com.digitalcreative.librarymodel.Account;
 import com.digitalcreative.libraryservice.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.view.RedirectView;
-
-import java.util.HashMap;
-import java.util.Map;
 
 @Controller
 public class RegisterController {
@@ -20,27 +16,28 @@ public class RegisterController {
     AccountService accountService;
 
     @GetMapping("/register")
-    ModelAndView showSignUp(){
-
-        String view = "register";
-        Map<String,Object> model = new HashMap<String,Object>();
-
-        model.put("account",new Account());
-
-        return new ModelAndView(view,model);
+    public String showRegisterPage(Model model) {
+        model.addAttribute("account", new Account());
+        return "register"; // Renvoie la vue "register.html"
     }
+
 
     @PostMapping("/createAccount")
-    ModelAndView createAccount(@ModelAttribute Account account){
+    public String createAccount(@ModelAttribute Account account, Model model) {
 
-        System.out.println("Account = " + account);
+        try {
 
-        accountService.createAccount(account);
+            // Validation dans le service
+            accountService.validatePasswords(account.getPassword(), account.getConfirmPassword());
 
-        RedirectView redirectView = new RedirectView();
-        redirectView.setUrl("/login");
+            // Si la validation est correcte, procédez à l'enregistrement
+            accountService.createAccount(account);
 
-        return new ModelAndView(redirectView) ;
+            return "redirect:/login"; // Redirection après succès
+        } catch (IllegalArgumentException e) {
+            // Retourner au formulaire en cas d'erreur
+            model.addAttribute("errorMessage", e.getMessage());
+            return "register";
+        }
     }
-
 }

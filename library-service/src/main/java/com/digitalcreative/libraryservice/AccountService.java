@@ -46,4 +46,9 @@ public class AccountService {
         accountRepository.deleteAccount(id);
     }
 
+    public void validatePasswords(String password, String confirmPassword) {
+        if (password == null || confirmPassword == null || !password.equals(confirmPassword)) {
+            throw new IllegalArgumentException("Les mots de passe ne correspondent pas.");
+        }
+    }
 }
